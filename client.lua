@@ -14,7 +14,6 @@ addEventHandler("receberDadosEmpresas", resourceRoot, function(dadosRecebidos)
     propriedades = dadosRecebidos.propriedades
 end)
 
-
 function rgbToHex(r, g, b)
     return string.format("#%02X%02X%02X", r, g, b)
 end
